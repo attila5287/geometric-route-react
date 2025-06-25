@@ -1,12 +1,38 @@
-# React + Vite
+# Geometric Route
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+| link|desc|
+| ---|----|
+| [Vercel]    | see live version deployed on vercel app |
+| [Github]    | see the code, starts with (1) draw (2) extrusion-3d layer (3) elevated line (extra) input elements
 
-Currently, two official plugins are available:
+[Vercel]:https://geometric-route-react.vercel.app/
+[Github]:https://www.github.com/attila5287/geometric-route-react
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![react-badge](https://raw.githubusercontent.com/attila5287/img_readme/main/new/react_badge_96.png)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Mapbox References
+
+| link|desc|
+| ---|----|
+| [Mapbox Ex 1] | extrusion layer |
+| [Mapbox Ex 2] | mapbox-gl-draw  |
+| [Mapbox Ex 3] | elevated line   |
+
+
+[Mapbox Ex 1]:https://docs.mapbox.com/mapbox-gl-js/example/3d-extrusion-floorplan/
+[Mapbox Ex 2]:https://docs.mapbox.com/mapbox-gl-js/example/mapbox-gl-draw/
+[Mapbox Ex 3]:https://docs.mapbox.com/mapbox-gl-js/example/elevated-line/
+
+
+
+<br>
+
+| ![dev]( https://raw.githubusercontent.com/attila5287/img_readme/main/all/dev.jpg "dev-icon") | About Developer | 
+| -------------   | -------------: |
+| Repos | [github.com/attila5287 ](https://github.com/attila5287/) |
+| Profile | [ attila5287.github.io ](https:///attila5287.github.io/) |
+| Email    |  atiturkoz@gmail.com | 
+
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
