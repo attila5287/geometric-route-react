@@ -83,7 +83,7 @@ export default function MapboxMap({ baseHeight, topHeight, stepCount, toleranceW
         zoom: 18.93,
         bearing: 150,
         pitch: 60,
-        antialias: true,
+        antialias: false,
       });
 
       console.log('Map object created:', map);
@@ -198,9 +198,10 @@ export default function MapboxMap({ baseHeight, topHeight, stepCount, toleranceW
     console.log('--- END MAP INITIALIZATION ---');
     // Clean up
     return () => {
-      if (map) {
+      if (mapRef.current) {
         console.log("Cleaning up map.")
-        map.remove();
+        mapRef.current.remove();
+        mapRef.current = null;
       }
     }
   }, []);
