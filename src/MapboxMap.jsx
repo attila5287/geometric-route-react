@@ -78,7 +78,7 @@ export default function MapboxMap({ baseHeight, topHeight, stepCount, toleranceW
     try {
       map = new mapboxgl.Map({
         container: mapContainer.current,
-        style: 'mapbox://styles/mapbox/streets-v12',
+        style: 'mapbox://styles/mapbox/standard',
         center: [positionMap.lng, positionMap.lat],
         zoom: 18.93,
         bearing: 150,
